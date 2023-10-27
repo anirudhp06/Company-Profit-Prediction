@@ -28,13 +28,13 @@ def pred(x):
 # Output field: [Profit]
 def main():
     try:
-        #Input from the user
+        # Input from the user
         print('Hello')
         rd=st.number_input('Enter Research & Development cost (R&D)[in lakhs]', min_value=100, step=1)
         administration=st.number_input('Enter Administration cost [in lakhs]', min_value=100, step=1)
         marketing=st.number_input('Enter Marketing cost[in lakhs]', min_value=100, step=1)
         if st.button('Predict Profit'):
-            #Prediction
+            # Prediction
             inputs=[rd,administration,marketing]
             profit=pred(inputs)
             profit=locale.format_string("%.2f",profit,grouping=True)
