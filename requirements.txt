@@ -5,3 +5,4 @@ Scikit-learn
 seaborn
 category_encoders
 streamlit
+jupyter
