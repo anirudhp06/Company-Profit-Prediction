@@ -5,3 +5,5 @@ PROJECT SHEET3.pdf
 .ipynb_checkpoints/*
 ~$*.*
 todo.txt
+*.tmp
+*.zip
